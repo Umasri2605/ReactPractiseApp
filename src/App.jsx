@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 
 function App() {
-   var [num,setNum]=useState();
+   var [num,setNum]=useState()
 
     useEffect(()=>{
       setInterval(()=>{
