@@ -4,13 +4,13 @@ import { useEffect, useState } from "react"
 function App() {
    var [num,setNum]=useState();
 
-  //  useEffect(()=>{
+    useEffect(()=>{
       setInterval(()=>{
         var n=Math.random();
         console.log(n);
         setNum(n)
       },2000)
-  //  },[])
+    },[])
    
   return (
     <div className="border border-2 border-success m-3 p-3">
